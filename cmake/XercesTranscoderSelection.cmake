@@ -67,6 +67,11 @@ if(HAVE_ICONV_H AND HAVE_WCHAR_H AND HAVE_STRING_H AND HAVE_STDLIB_H AND
   endif()
 endif()
 
+if(XERCES_USE_GNUICONV)
+  set(gnuiconv_available 1)
+  list(APPEND transcoders gnuiconv)
+endif()
+
 # Windows
 
 if(WIN32)
