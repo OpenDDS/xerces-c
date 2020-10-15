@@ -1273,7 +1273,8 @@ add_library(xerces-c
   ${libxerces_c_RESOURCES})
 
 target_include_directories(xerces-c BEFORE PUBLIC "$ENV{GNU_ICONV_ROOT}/include")
-list(APPEND libxerces_c_DEPS "$ENV{GNU_ICONV_ROOT}/lib/libiconv.so")
+list(APPEND libxerces_c_DEPS "iconv")
+target_link_directories(xerces-c PUBLIC "$ENV{GNU_ICONV_ROOT}/lib")
 add_definitions("-DICONV_INCLUDE=\"$ENV{GNU_ICONV_ROOT}/include/iconv.h\"")
 
 target_link_libraries(xerces-c ${libxerces_c_DEPS})
