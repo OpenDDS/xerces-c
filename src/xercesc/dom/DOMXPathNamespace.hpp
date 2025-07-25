@@ -61,7 +61,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{    
-    DOMXPathNamespace() {};
+    DOMXPathNamespace() {}
     //@}
 
 private:
@@ -90,7 +90,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMXPathNamespace() {};
+    virtual ~DOMXPathNamespace();
     //@}
 
     // -----------------------------------------------------------------------

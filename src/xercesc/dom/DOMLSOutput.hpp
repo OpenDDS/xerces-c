@@ -44,7 +44,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{    
-    DOMLSOutput() {};
+    DOMLSOutput() {}
     //@}
 
 private:
@@ -67,7 +67,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMLSOutput() {};
+    virtual ~DOMLSOutput();
     //@}
 
     // -----------------------------------------------------------------------

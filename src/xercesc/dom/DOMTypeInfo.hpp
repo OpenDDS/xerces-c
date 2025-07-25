@@ -40,7 +40,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMTypeInfo() {};
+    DOMTypeInfo() {}
     //@}
 
 private:
@@ -64,7 +64,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMTypeInfo() {};
+    virtual ~DOMTypeInfo();
     //@}
 
     // -----------------------------------------------------------------------

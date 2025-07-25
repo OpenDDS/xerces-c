@@ -49,7 +49,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMLSParserFilter() {};
+    DOMLSParserFilter() {}
     //@}
 
 private:
@@ -73,7 +73,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMLSParserFilter() {};
+    virtual ~DOMLSParserFilter();
     //@}
 
     // -----------------------------------------------------------------------

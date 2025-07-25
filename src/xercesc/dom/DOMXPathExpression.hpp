@@ -42,7 +42,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMXPathExpression() {};
+    DOMXPathExpression() {}
     //@}
 
 private:
@@ -65,7 +65,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMXPathExpression() {};
+    virtual ~DOMXPathExpression();
     //@}
 
     // -----------------------------------------------------------------------

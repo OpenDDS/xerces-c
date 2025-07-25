@@ -92,7 +92,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMCDATASection() {};
+    virtual ~DOMCDATASection();
     //@}
 
 };

@@ -49,7 +49,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{    
-    DOMDocumentType() {};
+    DOMDocumentType() {}
     //@}
 
 private:
@@ -72,7 +72,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMDocumentType() {};
+    virtual ~DOMDocumentType();
     //@}
 
     // -----------------------------------------------------------------------

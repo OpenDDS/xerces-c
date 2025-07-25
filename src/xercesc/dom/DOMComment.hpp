@@ -43,7 +43,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{    
-    DOMComment() {};
+    DOMComment() {}
     //@}
 
 private:
@@ -66,7 +66,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMComment() {};
+    virtual ~DOMComment();
     //@}
 };
 

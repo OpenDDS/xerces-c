@@ -84,7 +84,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMEntityReference() {};
+    virtual ~DOMEntityReference();
     //@}
 
 };

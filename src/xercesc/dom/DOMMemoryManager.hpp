@@ -37,7 +37,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMMemoryManager() {};
+    DOMMemoryManager() {}
     //@}
 
 private:
@@ -61,7 +61,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMMemoryManager() {};
+    virtual ~DOMMemoryManager();
     //@}
 
     // -----------------------------------------------------------------------

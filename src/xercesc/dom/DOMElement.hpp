@@ -93,7 +93,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMElement() {};
+    virtual ~DOMElement();
     //@}
 
     // -----------------------------------------------------------------------

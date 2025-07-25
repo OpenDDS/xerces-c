@@ -115,6 +115,7 @@ set(dom_headers
 )
 
 set(dom_sources
+  xercesc/dom/DOM.cpp
   xercesc/dom/DOMException.cpp
   xercesc/dom/DOMLSException.cpp
   xercesc/dom/DOMRangeException.cpp

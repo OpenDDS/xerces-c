@@ -44,7 +44,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMError() {};
+    DOMError() {}
     //@}
 
 private:
@@ -67,7 +67,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMError() {};
+    virtual ~DOMError();
     //@}
 
     // -----------------------------------------------------------------------

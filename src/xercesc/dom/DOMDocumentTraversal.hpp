@@ -52,7 +52,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMDocumentTraversal() {};
+    DOMDocumentTraversal() {}
     //@}
 
 private:
@@ -75,7 +75,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMDocumentTraversal() {};
+    virtual ~DOMDocumentTraversal();
     //@}
 
     // -----------------------------------------------------------------------

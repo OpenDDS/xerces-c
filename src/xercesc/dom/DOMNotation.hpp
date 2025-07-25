@@ -71,7 +71,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMNotation() {};
+    virtual ~DOMNotation();
     //@}
 
 

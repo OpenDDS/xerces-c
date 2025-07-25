@@ -39,7 +39,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMPSVITypeInfo() {};
+    DOMPSVITypeInfo() {}
     //@}
 
 private:
@@ -80,7 +80,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMPSVITypeInfo() {};
+    virtual ~DOMPSVITypeInfo();
     //@}
 
     //@{

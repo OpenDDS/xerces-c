@@ -42,7 +42,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{    
-    DOMDocumentRange() {};
+    DOMDocumentRange() {}
     //@}
 
 private:
@@ -65,7 +65,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMDocumentRange() {};
+    virtual ~DOMDocumentRange();
     //@}
 
     // -----------------------------------------------------------------------

@@ -77,7 +77,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMTreeWalker() {};
+    virtual ~DOMTreeWalker();
     //@}
 
     // -----------------------------------------------------------------------

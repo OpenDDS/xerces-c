@@ -73,7 +73,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMCharacterData() {};
+    virtual ~DOMCharacterData();
     //@}
 
     // -----------------------------------------------------------------------

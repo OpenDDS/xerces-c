@@ -46,7 +46,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMLocator() {};
+    DOMLocator() {}
     //@}
 
 private:
@@ -69,7 +69,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMLocator() {};
+    virtual ~DOMLocator();
     //@}
 
     // -----------------------------------------------------------------------

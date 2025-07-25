@@ -48,7 +48,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-        DOMImplementation() {};                                      // no plain constructor
+        DOMImplementation() {}                                      // no plain constructor
     //@}
 
 private:
@@ -72,7 +72,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMImplementation() {};
+    virtual ~DOMImplementation();
     //@}
 
     // -----------------------------------------------------------------------

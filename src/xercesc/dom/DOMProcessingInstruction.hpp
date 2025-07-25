@@ -65,7 +65,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMProcessingInstruction() {};
+    virtual ~DOMProcessingInstruction();
     //@}
 
     // -----------------------------------------------------------------------

@@ -54,7 +54,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMNodeFilter() {};
+    DOMNodeFilter() {}
     //@}
 
 private:
@@ -77,7 +77,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMNodeFilter() {};
+    virtual ~DOMNodeFilter();
     //@}
 
     // -----------------------------------------------------------------------

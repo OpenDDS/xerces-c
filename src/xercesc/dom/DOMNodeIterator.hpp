@@ -72,7 +72,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMNodeIterator() {};
+    virtual ~DOMNodeIterator();
     //@}
 
     // -----------------------------------------------------------------------

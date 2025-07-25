@@ -58,7 +58,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{    
-    DOMLSResourceResolver() {};
+    DOMLSResourceResolver() {}
     //@}
 
 private:
@@ -81,7 +81,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMLSResourceResolver() {};
+    virtual ~DOMLSResourceResolver();
     //@}
 
     // -----------------------------------------------------------------------

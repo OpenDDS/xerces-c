@@ -64,7 +64,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{    
-    DOMLSInput() {};
+    DOMLSInput() {}
     //@}
 
 private:
@@ -87,7 +87,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMLSInput() {};
+    virtual ~DOMLSInput();
     //@}
 
     // -----------------------------------------------------------------------

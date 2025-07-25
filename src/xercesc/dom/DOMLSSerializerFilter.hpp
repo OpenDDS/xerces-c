@@ -51,7 +51,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMLSSerializerFilter() {};
+    DOMLSSerializerFilter() {}
     //@}
 
 private:
@@ -75,7 +75,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMLSSerializerFilter() {};
+    virtual ~DOMLSSerializerFilter();
     //@}
 
     // -----------------------------------------------------------------------

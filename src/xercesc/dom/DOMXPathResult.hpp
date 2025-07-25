@@ -52,7 +52,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMXPathResult() {};
+    DOMXPathResult() {}
     //@}
 
 private:
@@ -75,7 +75,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMXPathResult() {};
+    virtual ~DOMXPathResult();
     //@}
 
     // -----------------------------------------------------------------------

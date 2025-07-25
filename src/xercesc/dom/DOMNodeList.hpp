@@ -49,7 +49,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMNodeList() {};
+    DOMNodeList() {}
     //@}
 
 private:
@@ -72,7 +72,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMNodeList()  {};
+    virtual ~DOMNodeList();
     //@}
 
     // -----------------------------------------------------------------------

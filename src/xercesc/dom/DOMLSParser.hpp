@@ -52,7 +52,7 @@ protected :
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMLSParser() {};
+    DOMLSParser() {}
     //@}
 
 private:
@@ -75,7 +75,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMLSParser() {};
+    virtual ~DOMLSParser();
     //@}
 
     // -----------------------------------------------------------------------

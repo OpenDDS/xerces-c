@@ -355,7 +355,7 @@ protected:
     //-----------------------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMConfiguration() {};
+    DOMConfiguration() {}
     //@}
 
 private:
@@ -441,7 +441,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMConfiguration() {};
+    virtual ~DOMConfiguration();
     //@}
 };
 	

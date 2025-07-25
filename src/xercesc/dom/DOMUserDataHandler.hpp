@@ -44,7 +44,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{    
-    DOMUserDataHandler() {};
+    DOMUserDataHandler() {}
     //@}
 
 private:
@@ -67,7 +67,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMUserDataHandler() {};
+    virtual ~DOMUserDataHandler();
     //@}
 
     // -----------------------------------------------------------------------

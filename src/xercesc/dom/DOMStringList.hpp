@@ -41,7 +41,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMStringList() {};
+    DOMStringList() {}
     //@}
 
 private:
@@ -64,7 +64,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMStringList()  {};
+    virtual ~DOMStringList();
     //@}
 
     // -----------------------------------------------------------------------

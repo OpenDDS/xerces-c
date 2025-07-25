@@ -44,7 +44,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMImplementationList() {};
+    DOMImplementationList() {}
     //@}
 
 private:
@@ -67,7 +67,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMImplementationList()  {};
+    virtual ~DOMImplementationList();
     //@}
 
     // -----------------------------------------------------------------------

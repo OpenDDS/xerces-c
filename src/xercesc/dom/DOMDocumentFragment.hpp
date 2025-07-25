@@ -75,7 +75,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{    
-    DOMDocumentFragment() {};
+    DOMDocumentFragment() {}
     //@}
 
 private:
@@ -98,7 +98,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMDocumentFragment() {};
+    virtual ~DOMDocumentFragment();
 	//@}
 
 };

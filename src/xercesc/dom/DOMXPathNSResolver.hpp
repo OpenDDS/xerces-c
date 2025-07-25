@@ -42,7 +42,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMXPathNSResolver() {};
+    DOMXPathNSResolver() {}
     //@}
 
 private:
@@ -65,7 +65,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMXPathNSResolver() {};
+    virtual ~DOMXPathNSResolver();
     //@}
 
     // -----------------------------------------------------------------------

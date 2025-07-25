@@ -49,7 +49,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMNamedNodeMap() {};
+    DOMNamedNodeMap() {}
     //@}
 
 private:
@@ -72,7 +72,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMNamedNodeMap() {};
+    virtual ~DOMNamedNodeMap();
     //@}
 
     // -----------------------------------------------------------------------

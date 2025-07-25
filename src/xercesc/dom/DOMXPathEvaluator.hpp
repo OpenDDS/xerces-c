@@ -53,7 +53,7 @@ protected:
     // -----------------------------------------------------------------------
     /** @name Hidden constructors */
     //@{
-    DOMXPathEvaluator() {};
+    DOMXPathEvaluator() {}
     //@}
 
 private:
@@ -76,7 +76,7 @@ public:
      * Destructor
      *
      */
-    virtual ~DOMXPathEvaluator() {};
+    virtual ~DOMXPathEvaluator();
     //@}
 
     // -----------------------------------------------------------------------
